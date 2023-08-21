@@ -45,7 +45,7 @@ Baka::Baka(const Baka& copy)
 // parametrized constructor definition
 
 // Baka::Baka(int a , int b)
-// :  k{a} , p{b}
+// :  k(a) , p(b)
 // {
 
 // }

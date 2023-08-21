@@ -1,20 +1,21 @@
 #include<iostream>
+#include<vector>
 
 using namespace std;
+
+int func(vector<int> &y)
+{
+    y.at(1) = 3;
+    return 0 ;
+}
 
 int main() 
 {
 
-int x = 1234; 
- int y =0;
+vector<int>x = {1,2,3};
 
-while(x !=0)
-{
-    y=x%10;
-    cout<<y<<endl;
-    x = x/10;
-    cout<<x<<endl;
-}
+func(x);
+cout<<x.at(1);
 
-
+return 0 ;
 }

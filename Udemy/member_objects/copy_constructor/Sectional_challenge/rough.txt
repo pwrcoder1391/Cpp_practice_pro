@@ -1,0 +1,65 @@
+function(movie name)
+{
+    return movie_object 
+}
+
+
+main()
+
+{
+    cout<< 1. enter movie , 2.show movie , 3.delete movie , 4. increment count
+    switch()
+    {
+        case1:
+            movie new_movie("name" , rating , times_watched);
+
+        case2: 
+            movie.list() // shows the list of movies 
+
+        case3:
+            cin>>movie_name
+            movie.show_movie("movie name")
+
+        case4: 
+            cin>>movie name
+            movie.increment_count("movie name")
+
+        
+    }
+
+    movie new_movie("name" , rating , times_watched);
+
+    
+
+    
+
+}
+
+
+/*cout<< "1. enter movie"<<endl;
+        cout<< "2. show movies"<<endl;
+        cout<< "3. increment count"<<endl;
+    switch()
+    {
+        case1:
+            cin>>movie_name;
+            cin>>rating;
+            cin>>times_watched;
+            Movie new_movie(movie_name , rating , times_watched);
+            break;
+
+        case2: 
+            Movie.list() // shows the list of movies 
+            break;
+
+        case3:
+            cin>>movie_name
+            movie.show_movie("movie name")
+            break;
+
+        case4: 
+            cin>>movie name
+            movie.increment_count("movie name")
+            break;
+    }
+    }*/  
