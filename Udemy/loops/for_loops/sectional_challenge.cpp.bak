@@ -16,8 +16,6 @@ int main()
         add to the list or 
         clear list or 
         do any arthematic operations in it 
-		
-		Better to use - SWITCH-CASE than if-else statement (SWITCH-CASE > if-else) in this case 
     */
 
 
