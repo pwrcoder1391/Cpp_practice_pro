@@ -1,0 +1,3 @@
+- Write a code where you are using constructors , destructors , inheritance and polymorphism 
+    - In polymorphism - use operator overloading , virtual function , function overloading
+    - In constructors - use move constructors and copy constructors 
